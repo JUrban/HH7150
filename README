@@ -1,0 +1,25 @@
+This is the HH7150 benchmark for automated reasoning in large theories (ARLT).
+
+There are large 7150 problems in the benchmark in the directory
+"problems". They are listed in the file ProblemsInProcessingOrder and
+contain altogether 7744 formulas. The problems are created by
+first-order export of theorems and definitions from 38 HOL
+Light/Flyspeck files, listed in FilesInProcessingOrder. Only theorems
+and definitions needed by Flyspeck are exported. SVN version 154 of
+HOL Light was used together with version r3006 of Flyspeck. 
+
+3005 of these problems could be proved after various attempts by an
+ATP system. These problems, using the premises needed just for the
+proofs, are in the directory "proofs".
+
+The benchmarks includes among others the Brouwer fixed-point theorem,
+Jordan curve theorem, and Luzin theorem.
+
+For copyright and copying information, see the files LICENSE* in this
+directory. Authors of the formalizations are listed in the file
+Authors.txt.
+
+Have fun!
+
+Cezary Kaliszyk and Josef Urban
+firstname.lastname@gmail.com
